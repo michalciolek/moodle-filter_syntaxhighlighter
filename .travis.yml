@@ -13,7 +13,7 @@ php:
 env:
  global:
   - MOODLE_BRANCH=master
-  - IGNORE_PATHS=amd/src/hljs.js
+  - IGNORE_PATHS=amd/src/hljs.js,amd/src/hljs-ln.js
 
  matrix:
   - DB=pgsql MOODLE_BRANCH=MOODLE_32_STABLE

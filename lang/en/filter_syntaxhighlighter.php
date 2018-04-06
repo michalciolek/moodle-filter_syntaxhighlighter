@@ -27,5 +27,7 @@ defined('MOODLE_INTERNAL') || die();
 
 $string['style'] = 'Highlighting style';
 $string['style_desc'] = 'The name of the stylesheet to use for highlighting.';
+$string['line_numbers'] = 'Line numbers';
+$string['line_numbers_desc'] = 'Show line numbers';
 $string['pluginname'] = 'Syntax Highlighter';
 $string['filtername'] = 'Syntax Highlighter';

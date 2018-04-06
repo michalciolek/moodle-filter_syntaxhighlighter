@@ -12,4 +12,4 @@ The settings allows you to choose which style to use.
 3.  Activate from Manage filters.
 
 ## Change requests
-Since this is a 3rd party plugin, any change requests that relate to the the styles and features of the highlighting should be directed to the [plugin author](https://github.com/isagalaev/highlight.js/issues).
+Since this is a 3rd party plugin, any change requests that relate to the the styles and features of the highlighting should be directed to the [plugin author](https://github.com/isagalaev/highlight.js/issues) or [plugin author](https://github.com/wcoder/highlightjs-line-numbers.js/issues).

@@ -76,6 +76,12 @@ class filter_syntaxhighlighter extends moodle_text_filter {
             $styleurl = new moodle_url($css);
 
             $page->requires->js_call_amd('filter_syntaxhighlighter/hljs', 'initHighlighting');
+
+            $line_numbers = get_config('filter_syntaxhighlighter', 'linenumbers');
+            if ($line_numbers) {
+                $page->requires->js_call_amd('filter_syntaxhighlighter/hljs-ln', 'initLineNumbers');
+            }
+
             $page->requires->css($styleurl);
 
             $jsinitialised = true;

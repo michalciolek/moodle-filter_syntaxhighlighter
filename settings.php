@@ -117,6 +117,11 @@ if ($ADMIN->fulltree) {
                                          new lang_string('style_desc', 'filter_syntaxhighlighter'),
                                          'atom-one-light',
                                          $options);
+
+    $settings->add(new admin_setting_configcheckbox('filter_syntaxhighlighter/linenumbers',
+                                        new lang_string('line_numbers', 'filter_syntaxhighlighter'),
+                                        new lang_string('line_numbers_desc', 'filter_syntaxhighlighter'), 0));
+
     $settings->add($setting);
 
 }

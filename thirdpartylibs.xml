@@ -7,4 +7,11 @@
     <version>9.12.0</version>
     <licenseversion>3.0+</licenseversion>
   </library>
+  <library>
+    <location>amd/src/highlightjs-line-numbers.js</location>
+    <name>highlightjs-line-numbers</name>
+    <license>MIT</license>
+    <version>2.3.0</version>
+    <licenseversion></licenseversion>
+  </library>
 </libraries>
